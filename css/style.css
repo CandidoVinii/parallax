@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Poppins:wght@200;400;600&family=Rubik:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+
+.conteudo{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+p{
+    padding-top: 15px;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6{
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1{
+    background-image: url(../img/imagem1.jpg);
+}
+
+.caixa2{
+    background-image: url(../img/imagem2.jpg);
+}
+
+.caixa3{
+    background-image: url(../img/imagem3.jpg);
+}
+
+.caixa4{
+    background-image: url(../img/imagem4.jpg);
+}
+
+.caixa5{
+    background-image: url(../img/imagem5.jpg);
+}
+
+.caixa6{
+    background-image: url(../img/imagem6.jpg);
+}
+
+.conteudo-titulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+    color: white;
+    background-color: #118ab2;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+}
+
+footer{
+    height: 40px;
+    background-color: #118ab2;
+    line-height: 60px;
+    text-align: center;
+}
